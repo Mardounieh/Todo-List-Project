@@ -1,0 +1,41 @@
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Css/Styles.css" />
+    <link rel="stylesheet" href="Icons/css/all.css" />
+    <script src="Scripts/script.js" defer></script>
+    <title>Todo List</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="header-title">
+        <h1>Todo List App</h1>
+        <p>Organize Your Work And Life With Todolist</p>
+      </div>
+      <i class="fad fa-check-double"></i>
+    </header>
+    <main>
+      <form class="form">
+        <div class="inputContainer">
+          <i class="fad fa-feather"></i>
+          <input type="text" placeholder="What's Up?">
+          <i class="fad fa-circle-plus addItemButton"></i>
+        </div>
+        <div class="categoryContainer absolute">
+          <i class="fad fa-briefcase work"></i>
+          <i class="fad fa-dumbbell gym"></i>
+          <i class="fad fa-home home"></i>
+        </div>
+      </form>
+      <div class="todoContainer" draggable="true">
+        <ul>
+        </ul>
+      </div>
+    </main>
+  </body>
+
+</html>
